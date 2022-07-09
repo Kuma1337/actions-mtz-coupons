@@ -1,0 +1,15 @@
+- name: tg-message-sender
+  # You may pin to the exact commit or the version.
+  # uses: sputnik-systems/tg-message-sender@47e6a6e6ddeab2eb27e6b827907490611222c9ac
+  uses: sputnik-systems/tg-message-sender@v0.0.2
+  with:
+    # Telegram api bot token
+    telegram_bot_token: 5404106058:AAGxA1EaOk6hKdxrK09BSYk8HkRVOjpRdlQ
+    # Telegram chat id
+    telegram_chat_id: 2133964755
+    # Used environment variables preifx
+    env_var_prefix: # optional, default is TG_MSG_
+    # String with used message template (go template)
+    template_string: # optional
+    # String with used base64 encoded message template (go template)
+    template_base64_string: # optional
